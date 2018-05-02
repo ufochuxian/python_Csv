@@ -1,0 +1,18 @@
+使用说明
+
+首先请检查：csv文件需要放到csv目录下面，并且每次请只保留一个csv文件。csv文件的格式请参考audio.csv，需要读取的列的名字固定为"ID",末尾跟上逗号。
+生成的wav空文件都会保存在wav目录下面。
+
+1 将该目录随意放置到Mac电脑的用户目录下面（根目录）（eg: /Users/chen）
+
+2 打开terminal,执行命令 cd ~   （输入后，需要按下enter键执行）
+
+3 在terminal中执行命令 cd GetCsvColumn   （输入后，需要按下enter键执行）
+
+4 将需要进行操作的csv文件，放到当前目录下面的csv目录下面
+
+5 在termianl中，继续执行命令，python GetColumn.py （输入后，需要按下enter键执行）
+
+
+
+
