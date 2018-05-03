@@ -5,6 +5,8 @@ import shutil
 
 wavDir = os.getcwd() + "/wav"
 
+origin_wav_file = os.getcwd() + "/originwav/origin.wav"
+
 
 def mk_dir(path):
     folder = os.path.exists(path)
@@ -18,8 +20,7 @@ def mk_dir(path):
 
 def mk_file(filename):
     if not os.path.exists(filename):
-        wav_file = open(filename, 'w')
-        wav_file.close()
+        shutil.copyfile(origin_wav_file, filename)
     else:
         print("file " + filename + " ,has exits!")
 
