@@ -14,5 +14,21 @@
 5 在termianl中，继续执行命令，python GetColumn.py （输入后，需要按下enter键执行）
 
 
+--------------------------------------------------------------------------------------------
+
+截取音频文件
+
+1 将该目录随意放置到Mac电脑的用户目录下面（根目录）（eg: /Users/chen）
+
+2 打开terminal,执行命令 cd ~   （输入后，需要按下enter键执行）
+
+3 在terminal中执行命令 cd GetCsvColumn   （输入后，需要按下enter键执行）
+
+4 将需要进行操作的截取音频的SliceAudio.csv文件(名字必须是这个名字)，放到当前目录下面的csv目录下面
+
+5 在termianl中，继续执行命令，python SliceAudio.py （输入后，需要按下enter键执行)
+
+
+
 
 
